@@ -1,0 +1,19 @@
+{
+  "name": "bird-card-game",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/game.ts",
+    "test": "yarn build && jest dist/**"
+  },
+  "dependencies": {
+    "ts-node": "^10.3.1",
+    "typescript": "^4.4.4"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.0.2",
+    "jest": "^27.3.1"
+  }
+}
